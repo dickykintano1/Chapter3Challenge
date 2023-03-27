@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+/* 
+@font-face {
+  font-family: BebasNeue;
+  src: url('assets/BebasNeue-Regular.ttf');
+} */
+
+.sections{
+    display: block;
+    width: 100vw;
+    /* background: url("assets/main-bg.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.sect1{
+    background-image: url("assets/main-bg.jpg");
+}
+
+.sect2{
+    background-image: url("assets/the-games-bg.jpg");
+}
+
+.sect3{
+    background-image: url("assets/features.jpg");
+}
+
+.sect4{
+    background-image: url("assets/requirements.png");
+}
+
+.sect5{
+    background-image: url("assets/top-score-bg.png");
+}
+
+.sect6{
+    background-image: url("assets/top-score-bg(2).png");
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 10%;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.nav-title{
+    flex-grow: 5;
+    text-align: center;
+}
+
+.page1-container{
+    display: grid;
+    align-items:center;
+    margin-top: 15%;
+}
+
+/* .page2-container{
+    display: grid;
+    padding: 10%;
+} */
+
+.carousel-slide{
+    /* justify-self: end; */
+}
+
+.text{
+    color: white;
+    text-align: center;
+    /* font-family: 'Bebas Neue'; */
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.text-big{
+    font-size: 80px;
+}
+
+.btn-play{
+    background-color: yellow;
+    font-family: 'Open Sans';
+    margin: auto;
+    padding: 5px 15px;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-top:0;
+    text-align:center;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
