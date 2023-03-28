@@ -21,6 +21,14 @@
     width: 100%;
 }
 
+.text{
+    color: white;
+    text-align: center;
+    /* font-family: 'Bebas Neue'; */
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
 .sect1{
     background-image: url("assets/main-bg.jpg");
 }
@@ -68,24 +76,7 @@
     margin-top: 15%;
 }
 
-/* .page2-container{
-    display: grid;
-    padding: 10%;
-} */
-
-.carousel-slide{
-    /* justify-self: end; */
-}
-
-.text{
-    color: white;
-    text-align: center;
-    /* font-family: 'Bebas Neue'; */
-    font-family: 'Open Sans';
-    font-weight: bold;
-}
-
-.text-big{
+.p1-text-big{
     font-size: 80px;
 }
 
@@ -96,7 +87,44 @@
     padding: 5px 15px;
 }
 
-.material-symbols-outlined {
+.page2-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 30% 70%;
+    /* justify-items: stretch; */
+    /* margin: 0; */
+    /* align-content: stretch; */
+}
+
+.page2-texts{
+    align-self: center;
+    padding-bottom: 80%;
+    padding-left: 15%;
+}
+
+.page2-carousel{
+    position: relative;
+    justify-self: center;
+    margin: auto;
+}
+.p2-text-big{
+    font-size: 55px;
+    text-align: left;
+    margin:0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.p2-text-small{
+    font-weight: none;
+    font-size: 20px;
+    text-align: left;
+    margin:0;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.arrow-down {
     color: white;
     margin-top:0;
     text-align:center;
@@ -105,4 +133,232 @@
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.arrow-right {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.arrow-left {
+    color:white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.page3-container{
+    display:grid;
+    justify-content: end;
+    grid-template-areas: 'container1 container1 container1 container1 container1';
+    margin: 0 20% 0 20%;
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.p3-text-small{
+    font-weight: none;
+    font-size: 20px;
+    text-align: left;
+    margin:0;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.p3-text-big{
+    font-size: 55px;
+    text-align: left;
+    margin:0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.p3-container1{
+    grid-area: container1;
+    margin-left: 100%;
+}
+
+.p3-container2{
+    grid-area: container2;
+    display: flex;
+    flex-direction: column;
+}
+
+.vl {
+    border-left: 3px solid white;
+    height: 85px;
+    margin-left:2%;
+    top: 0;
+}
+
+.last-circle{
+    margin-top:30px;
+}
+
+.p3-container3{
+    grid-area: container3;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 10%;
+}
+
+.p3-text1{
+    color: orange;
+    margin: 0;
+}
+
+.p3-text2{
+    text-align: left;
+}
+
+.p3-text3{
+    color: orange;
+    margin-top: 10px;
+}
+
+.p3-text4{
+    color: orange;
+    margin-top: 10px;
+}
+
+.sect4{
+    /* background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0)); */
+    position: relative;
+}
+
+.p4-layer{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page4-container{
+    display: grid;
+    justify-content: start;
+    margin-right: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.page4-container .text{
+    text-align: left;
+}
+
+.page4-container span{
+    color: orange;
+}
+
+.page4-container p{
+    border: 1px solid #696969;
+    margin:0;
+    padding: 10px 5px 30px 5px;
+}
+
+
+.p4-text1{
+    padding-top: 10%;
+    
+}
+
+.p4-text2{
+    font-size:60px;
+    text-align: left;
+    grid-area: 1 / 1 / span 1 / span 2;
+    margin-bottom: 5%;
+}
+
+.p4-text7{
+    grid-area: 4 / 1 /span 1/ span 2;
+}
+
+.page5-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.p5-container1{
+    display: grid;
+    justify-items: start;
+    margin: 30% 20% 0 20%;
+}
+
+.p5-text-big{
+    text-align: left;
+    font-size: 70px;
+} 
+
+.p5-text-small{
+    font-size: 19px;
+    text-align: left;
+}
+
+.p5-btn{
+    background-color: orange;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+}
+
+.evan{
+    display: grid;
+    position: relative;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    width: 70%;
+    height: 50%;
+}
+
+.yellow-pic {
+    margin-left:30px;
+    margin-top:23px;
+    position: absolute;
+}
+
+.evan-pic {
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position:absolute; /* and this has to be relative */
+} 
+
+.p5-evan-bio{
+    position: absolute;
+    color: grey;
+    font-size: 15px;
+    text-align:left;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+.p5-evan-bio span{
+    color: orange;
+    font-size: 20px;
+}
+
+.twtr-logo{
+    justify-self: end;
+    margin-right: 25px
+}
+
+.p5-text1{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.p5-text2{
+    color: grey;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-size: 15px;
 }
