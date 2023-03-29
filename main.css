@@ -29,6 +29,14 @@
     font-weight: bold;
 }
 
+.btn-general{
+    background-color: orange;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Open Sans';
+}
+
 .sect1{
     background-image: url("assets/main-bg.jpg");
 }
@@ -50,19 +58,20 @@
 }
 
 .sect6{
-    background-image: url("assets/top-score-bg(2).png");
+    background-image: url("assets/newsletter.png");
 }
 
 .navbar{
-    display: flex;
-    background-color: black;
+    background-color: rgba(0,0,0,0.5);
     height: 10%;
+    position: relative;
+    justify-items: end;
 }
 
 .nav-item{
     color: white;
+    position: relative;
     text-decoration: none;
-    flex-grow: 1;
 }
 
 .nav-title{
@@ -70,21 +79,79 @@
     text-align: center;
 }
 
+.nav-item1{
+    position: absolute;
+    margin-left: 7%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-item2{
+    position: absolute;
+    margin-left: 25%;
+}
+
+.nav-item3{
+    position: absolute;
+    margin-left: 33%;
+}
+
+.nav-item4{
+    position: absolute;
+    margin-left: 41%;
+}
+
+.nav-item5{
+    position: absolute;
+    margin-left: 49%;
+}
+
+.nav-item6{
+    position: absolute;
+    margin-left: 75%;
+}
+
+.nav-item7{
+    position: absolute;
+    margin-left: 83%;
+}
+
 .page1-container{
     display: grid;
     align-items:center;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .p1-text-big{
-    font-size: 80px;
+    font-size: 75px;
+    margin-bottom: 3%;
+}
+
+.p1-text-small{
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .btn-play{
-    background-color: yellow;
+    background-color: orange;
     font-family: 'Open Sans';
     margin: auto;
-    padding: 5px 15px;
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: none;
+}
+
+.p1-container1{
+    display: grid;
+}
+
+.p1-text1{
+    margin-top: 15%;
+}
+
+.arrow-down{
+    justify-self: center;
 }
 
 .page2-container{
@@ -302,11 +369,52 @@
     text-align: left;
 }
 
-.p5-btn{
-    background-color: orange;
-    padding: 15px 80px;
-    border-radius: 10px;
-    border: none;
+.yellow-pic {
+    margin-left:30px;
+    margin-top:23px;
+    position: absolute;
+}
+
+.pic {
+    width: 67px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position:absolute; /* and this has to be relative */
+} 
+
+.p5-bio{
+    position: absolute;
+    color: grey;
+    font-size: 15px;
+    text-align:left;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+.p5-bio span{
+    color: orange;
+    font-size: 20px;
+}
+
+.twtr-logo{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 7%;
+}
+
+.p5-text1{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.p5-text2{
+    color: grey;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 20px;
+    font-size: 15px;
 }
 
 .evan{
@@ -316,49 +424,140 @@
     border-radius: 15px;
     width: 70%;
     height: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.yellow-pic {
-    margin-left:30px;
-    margin-top:23px;
-    position: absolute;
+.jada{
+    display: grid;
+    position: relative;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    width: 70%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.evan-pic {
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-top: 20px;
-    position:absolute; /* and this has to be relative */
-} 
+.aaron{
+    display: grid;
+    position: relative;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-.p5-evan-bio{
+.p5-container2{
+    /* margin-top: 10%; */
+}
+
+.page6-container{
+    /* background: url('assets/top-score-bg(2).png'); */
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.p6-container1{
+    position: relative;
+}
+
+.p6-shadow{
+    position: ;
+    /* width: 700px; */
+    width:46vw;
+    margin-top:10px;
+    margin-left: 13%;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+}
+
+.p6-skull{
     position: absolute;
-    color: grey;
+    margin-left:35%;
+    width: 20vw;
+    margin-top: 5%;
+}
+
+.p6-container2{
+    position: relative;
+    display: grid;
+    height: 85%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.p6-text1{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 5%;
+    /* overflow: hidden; */
+}
+
+.p6-text2{
+    font-size: 60px;
+    text-align: left;
+    margin:0;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+}
+
+.p6-text3{
+    text-align: left;
+}
+
+.p6-form{
+    margin-top:8%;
+}
+
+.email-input{
+    color: white;
     font-size: 15px;
-    text-align:left;
-    margin-left: 120px;
-    margin-top: 22px;
+    width: 50%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(25, 25, 25);
+    resize: none;
+    margin-right: 3%;
 }
-.p5-evan-bio span{
+
+.email-input, select, textarea{
     color: orange;
-    font-size: 20px;
 }
 
-.twtr-logo{
-    justify-self: end;
-    margin-right: 25px
+.footer-container{
+    display: grid;
+    margin-top: 7%;
+    margin-right: 9%;
+    justify-content: end;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    column-gap: 4%;
 }
 
-.p5-text1{
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 20px;
+.footer-items{
+    text-decoration: none;
 }
 
-.p5-text2{
+.footer-line{
     color: grey;
+    margin: 1% 8% 0 8%;
+}
+
+.copyright-text{
     position: absolute;
-    margin-top: 180px;
-    margin-left: 20px;
-    font-size: 15px;
+    color: grey;
+    margin-left: 8%;
+}
+
+.terms{
+    font-size:13px;
+    position: absolute;
+    margin-left: 65%;
 }
